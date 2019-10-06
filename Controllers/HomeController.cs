@@ -34,8 +34,8 @@ namespace WebApplication2.Controllers
 
             #region 自带logger日志  和  用了Nlog插件（代码不用改，在program.cs中加入配置）
 
-            logger.LogDebug("这是一个调试");
-            logger.LogWarning("这是一个警告");
+            logger.LogDebug("这是一个调试!");
+            logger.LogWarning("这是一个警告!");
             //为了报错进入MyException这个类
             try
             {
